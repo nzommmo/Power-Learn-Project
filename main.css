@@ -1,0 +1,53 @@
+
+body,html{
+    overflow-x: hidden;
+}
+nav{
+    margin-inline: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    background-color: aquamarine;
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+nav a{
+    margin-inline: 40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+ a:hover{
+    background-color: greenyellow;   
+
+}
+section{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    background-color: yellow;
+    margin-inline: 200px;
+    border-radius: 10px;
+    display: none;
+    padding: 10px;
+    
+}
+.text{
+    display: none;
+}
+button{
+    background-color: transparent;
+}
+
+#Animation{
+    width: 320px;
+    font-size: 30px;
+    position: absolute;
+
+
+}
