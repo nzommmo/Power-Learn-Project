@@ -9,7 +9,3 @@ my_list.extend(my_list2)
 my_list.sort()
 index0f30 = my_list.index(30)
 print(index0f30)
-
-
-
-print(my_list)
