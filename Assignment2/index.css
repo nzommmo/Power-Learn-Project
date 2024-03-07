@@ -61,3 +61,22 @@ td img{
     width: 100px;
     height: 100px;
 }
+.desc{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#Menutable{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td,th{
+    outline-style:groove;
+    border:2px solid;
+    padding: 8px;
+
+}
