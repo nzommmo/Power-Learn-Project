@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    overflow-x: hidden;
+}
+header{
+    padding-top: 2px;
+    background-color: transparent;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: azure;
+
+}
+ul{
+    display: flex;
+    gap:60px;
+    align-items: center;
+    justify-content: center;
+    
+}
+#Hometech{
+   max-width: 100%;
+   max-height: 100%;
+}
+
+#Welcome{
+    position: absolute;
+    top: 5%;
+    color: azure;
+    font-size: 50px;
+}
+#Gallery,#Menu{
+    background-color:black;
+}
+#images{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:5px;
+    margin-bottom: 40px;
+    margin-inline: 200px;
+}
+#images img{
+   max-width:20vw;
+    height: 35vw;
+    margin-top: 22px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#Menu{
+    color: azure;
+}
+td img{
+    width: 100px;
+    height: 100px;
+}
