@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html,body{
+    overflow: hidden;
+}
+body{
+    background-color: azure;
+}
+header{
+    margin-top: 10px;
+}
+section{
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    transform: translate(-50% -50%);
+}
+section div {
+    margin: 20px;
+    background-image: linear-gradient(to right,lime,lightgreen);
+    border-radius: 5px;
+}
+button{
+    margin-left: 35%;
+    background-color: black;
+    border-radius: 5px;
+
+}
+button a{
+    text-decoration: none;
+    color: azure;
+
+}
