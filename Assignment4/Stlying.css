@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    counter-reset: section;
+    background-color: coral;
+
+}
+h2::before{
+    counter-increment: section;
+    content: "Section"
+    counter(section) ": ";
+}
+header{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: -1px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    margin-top: 10px;
+   
+}
+.details{
+    background-color: cornsilk;
+    width: 400px;
+    border-radius:10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+#contact ul{
+list-style-type: none;
+}
+#contact li{
+    padding: 5px;
+}
+#contact a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#intro p{
+    padding: 10px;
+}
+#skills li{
+    margin: 10px;
+}
+
+/* For screens smaller than 768px (e.g., smartphones) */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+    header {
+        padding: 10px;
+        border-radius: 5px;    }   
+    .details {
+        width: 300px; /* Adjust width for smaller screens */
+    }
+    main {
+        padding: 10px; /* Increase padding for better spacing */
+        flex-wrap: wrap;
+    }
+}
+
+/* For screens between 768px and 1023px (e.g., tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 16px; /* Adjust font size for better readability */
+    }
+    header {
+        padding: 15px;
+        border-radius: 8px;
+        /* Increase padding for better spacing */
+    }
+    .details {
+        width: 350px; /* Adjust width for medium screens */
+    }
+    main {
+        padding: 20px; /* Increase padding for better spacing */
+    }
+}
+
+/* For screens larger than 1023px (e.g., desktops) */
+@media only screen and (min-width: 1024px) {
+    body {
+        font-size: 18px; /* Adjust font size for better readability */
+    }
+    header {
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .details {
+        width: 400px; /* Default width for larger screens */
+    }
+    main {
+        padding: 30px; /* Increase padding for better spacing */
+    }
+}
