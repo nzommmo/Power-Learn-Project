@@ -31,22 +31,36 @@ li a {
     color: black;
 }
 
-section{
+
+
+.homepage{
+
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
     padding: 10px;
-}
-#stack{
-    display: grid;
-    grid-template-columns: auto;
-}
-
-#Welcome{
 
     background-color: red;
-    margin-inline: 400px;
     border-radius: 5px;
 
+}
+#Welcome , #download{
+    margin-inline: 400px;
+
+}
+#Stacks{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.stack{
+    background-color: brown;
+    height: 300px;
+}
+#TechStack{
+    width: 500px;
+    margin-inline: 250px;
+    width: 800px ;
+    height: 400px;
 }
