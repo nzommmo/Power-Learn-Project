@@ -1,0 +1,52 @@
+body{
+    background-color: aquamarine ;
+    
+}
+
+header{
+    background-color: rgb(154, 154, 235);
+    border-radius: 5px;
+    margin-inline: 200px;
+
+}
+nav{
+    display: flex;
+    padding-left: 50px;
+}
+
+#links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;   
+    padding-left: 20vw;
+    padding-top:10px ;
+
+}
+li{
+    list-style-type: none;
+    font-weight: 700;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+#stack{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#Welcome{
+
+    background-color: red;
+    margin-inline: 400px;
+    border-radius: 5px;
+
+}
